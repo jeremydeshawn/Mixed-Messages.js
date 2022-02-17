@@ -7,4 +7,5 @@ const randomStart = start[Math.floor(Math.random() * start.length)];
 const randomNoun = noun[Math.floor(Math.random() * noun.length)];
 const randomAdverb = adverb[Math.floor(Math.random() * adverb.length)];
 
-
+const message = randomStart + randomNoun + randomAdverb;
+console.log(message);
